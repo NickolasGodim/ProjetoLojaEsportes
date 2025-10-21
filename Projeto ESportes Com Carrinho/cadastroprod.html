@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro Produto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1>Cadastro Produto</h1>
+        <hr>
+    </div>
+        <form name="formulario" method="POST" action="cadastroprod.php" enctype="multipart/form-data">
+            <div class="inputs">
+            Codigo: <input type="text" name="codigo" id="codigo" size="10">
+            <br><br>
+            
+            Descricao: <input type="text" name="descricao" id="descricao" size="30">
+            <br><br>
+
+            
+            Cod Categoria: <input type="text" name="codcategoria" id="codcategoria" size="30">
+            <br><br>
+            
+            Cod Tipo: <input type="text" name="codtipo" id="codtipo" size="30">
+            <br><br>
+            
+            Cod Marca: <input type="text" name="codmarca" id="codmarca" size="30">
+            <br><br>
+            
+            Cor: <input type="text" name="cor" id="cor" size="30">
+            <br><br>
+            
+            Tamanho: <input type="text" name="tamanho" id="tamanho" size="30">
+            <br><br>
+            
+            Preco: <input type="text" name="preco" id="preco" size="30">
+            <br><br>
+            
+            Foto 1<input type="file" name="foto1" id="foto1">
+            <br><br>
+            
+            Foto 2<input type="file" name="foto2" id="foto2">
+            <br><br>
+            </div>
+        <div class="btn">
+            <input type="submit" name="Gravar" value="Gravar">
+            <input type="submit" name="Excluir" value="Excluir">
+            <input type="submit" name="Alterar" value="Alterar">
+            <input type="submit" name="Pesquisar" value="Pesquisar">
+        </div>
+        </form>
+</body>
+</html>
