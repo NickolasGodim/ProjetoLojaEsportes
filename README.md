@@ -1,2 +1,2 @@
-# ProjetoLojaEsportes
-Projeto de uma loja de esportes
+# ProjetoPowerPlay
+Projeto de um site para uma loja de esportes ficticia PowerPlay
